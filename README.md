@@ -1,7 +1,14 @@
 # A simple scanner to find the output distribution
 
 Ex. (140) - A simple scanner to find the output distribution, is presented here in three programming languages: Python, MATLAB, and JavaScript. Although the implementations differ in syntax, the underlying concept remains identical across all three versions. Each code sample is reproduced from its respective volume of the series <i>Coding Examples from Simple to Complex</i> (Springer, 2024).
+
 ***
+
+The above program calculates a distribution of values within a specified range and stores the result in a string variable. The distribution is obtained by applying the <i>compute</i> function to each value within the given range and concatenating the results with newline characters in between. For a short description, this code generates a string output representing a distribution of values. It begins by declaring a variable <i>a</i> and assigns it the result of a function call to <i>distribution(3, 21)</i>. Then, it proceeds to print the value of <i>a</i> using a <i>print</i> function.
+
+The <i>distribution</i> function is the heart of the program. It takes two parameters, <i>start</i> and <i>stop</i>, representing the range of values to consider. Inside the function, a variable <i>t</i> is initialized as an empty string. A <i>for</i>-loop is used to iterate over a range of values from <i>start</i> (inclusive) to <i>stop</i> (exclusive). During each iteration, the <i>compute</i> function is called with the current value of <i>i</i>, and the result is concatenated to the string <i>t</i> with a newline character to separate each value. Next, the resulting string <i>t</i> is returned.
+
+Note that the <i>compute</i> function is a simple mathematical operation that takes a single parameter <i>x</i>, and it calculates a value based on the formula: <i>x + x / x - x * x</i> (mentioned earlier in this subchapter).
 
 ## Example in Python:
 
