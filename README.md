@@ -1,6 +1,6 @@
 # A simple scanner to find the output distribution
 
-Ex. (140) - <i>A simple scanner to find the output distribution</i>, is presented here in three programming languages: Python, MATLAB, and JavaScript. Although the implementations differ in syntax, the underlying concept remains identical across all three versions. Each code sample is reproduced from its respective volume of the series <i>Coding Examples from Simple to Complex</i> (Springer, 2024).
+Ex. (140) - <i>A simple scanner to find the output distribution</i>, is presented here in three programming languages: <a href="https://github.com/Gagniuc/Python-Coding-Examples-from-Simple-to-Complex">Python</a>, <a href="https://github.com/Gagniuc/MATLAB-Coding-Examples-from-Simple-to-Complex">MATLAB</a>, and <a href="https://github.com/Gagniuc/JavaScript-Coding-Examples-from-Simple-to-Complex">JavaScript</a>. Although the implementations differ in syntax, the underlying concept remains identical across all three versions. Each code sample is reproduced from its respective volume of the series <i>Coding Examples from Simple to Complex</i> (Springer, 2024).
 
 ***
 
